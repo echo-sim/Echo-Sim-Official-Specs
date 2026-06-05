@@ -38,7 +38,7 @@ The goal is not to replace human connection with AI — it is to remove the burn
 
 ### 3. Scientific Foundations
 
-EchoSim.AI's modeling draws on three well-established frameworks in relationship psychology. *The specific formulas, weights, and thresholds used in production are proprietary; what follows is the conceptual grounding only.*
+EchoSim.AI's modeling draws on three widely used frameworks for describing personality and relationships. These are applied as descriptive lenses, not as clinical or predictive claims. *The specific formulas, weights, and thresholds used in production are proprietary; what follows is the conceptual grounding only.*
 
 #### 3.1 Adult Attachment Theory
 
@@ -110,7 +110,7 @@ EchoSim.AI 反转了流程。早期那段令人疲惫的兼容性探查工作，
 
 ### 3. 科学依据
 
-EchoSim.AI 的建模建立在关系心理学的三大成熟框架之上。*生产环境中使用的具体公式、权重与阈值均为专有技术；以下仅为概念性依据。*
+EchoSim.AI 的建模借鉴了三套被广泛使用的人格与关系描述框架。这些框架仅作为描述性视角使用，不构成临床或预测性断言。*生产环境中使用的具体公式、权重与阈值均为专有技术；以下仅为概念性依据。*
 
 #### 3.1 成人依恋理论
 

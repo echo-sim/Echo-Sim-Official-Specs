@@ -64,7 +64,7 @@ Agents should treat outputs as opaque, advisory text. They must **not** assume a
 ### 5. Design principles
 
 - **Local-first / zero-trust.** Everything runs in the host machine's memory. No cloud calls, no logging of inputs, no persistence. Sensitive relational data never leaves the device.
-- **Deterministic & side-effect-free.** Given the same input, a handler returns the same output. No external services, no randomness in the public surface.
+- **Self-contained & side-effect-free.** The public surface makes no external calls and persists nothing; outputs are advisory text only. (Simulation outputs are generative and may vary between runs.)
 - **Stable interface, private engine.** The tool names and schemas are a long-term contract; the logic behind them is free to evolve and is not part of the public contract.
 - **Fail safe.** Bad input yields a structured error response, never a crash — global handlers keep the STDIO pipe alive.
 
@@ -141,7 +141,7 @@ For the production platform, see **[https://echosim.ai](https://echosim.ai)**.
 ### 5. 设计原则
 
 - **本地优先 / 零信任。** 一切都在宿主机内存中运行。无云端调用、不记录输入、不持久化，敏感关系数据永不离开设备。
-- **确定性且无副作用。** 相同输入返回相同输出。公开接口不依赖外部服务，也不引入随机性。
+- **自包含且无副作用。** 公开接口不依赖外部服务、不持久化任何数据；输出仅为参考性文本。（仿真输出为生成式结果，不同次运行可能不同。）
 - **接口稳定，引擎私有。** 工具名称与 Schema 是长期契约；其背后的逻辑可自由演进，不属于公开契约。
 - **安全失败。** 异常输入返回结构化错误响应而非崩溃——全局处理器保证 STDIO 管道不中断。
 

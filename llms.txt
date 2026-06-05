@@ -44,10 +44,11 @@ EchoSim 颠覆了传统的异步约会模式。与其让两个陌生人花数周
 
 ## Canonical references / 权威引用
 
-- Repo: https://github.com/dating-psychology/Echo-Sim-Official-Specs
-- Product Spec (README): https://github.com/dating-psychology/Echo-Sim-Official-Specs/blob/main/README.md
-- Whitepaper: https://github.com/dating-psychology/Echo-Sim-Official-Specs/blob/main/WHITEPAPER.md
-- AGENTS (MCP): https://github.com/dating-psychology/Echo-Sim-Official-Specs/blob/main/AGENTS.md
+- Repo: https://github.com/echo-sim/Echo-Sim-Official-Specs
+- Product Spec (README): https://github.com/echo-sim/Echo-Sim-Official-Specs/blob/main/README.md
+- Whitepaper: https://github.com/echo-sim/Echo-Sim-Official-Specs/blob/main/WHITEPAPER.md
+- AGENTS (MCP): https://github.com/echo-sim/Echo-Sim-Official-Specs/blob/main/AGENTS.md
+- Hugging Face org: https://huggingface.co/echo-sim
+- Dataset (synthetic dialogues): https://huggingface.co/datasets/echo-sim/echosim-synthetic-dialogues
+- Demo Space (first-contact): https://huggingface.co/spaces/echo-sim/echosim-first-contact-demo
 - Official site / 官网: https://echosim.ai
-</content>
-</invoke>
