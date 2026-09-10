@@ -33,7 +33,7 @@
   - [1. 摘要 (Abstract)](#1-摘要-abstract)
   - [2. 问题-解决方案矩阵 (Problem-Solution Matrix)](#2-问题-解决方案矩阵-problem-solution-matrix)
   - [3. 核心交互流程 (Core Interaction Flow)](#3-核心交互流程-core-interaction-flow)
-  - [4. 隐私安全与零信任立场 (Security & Privacy Posture)](#4-隐私安全与零信任立场-security--privacy-posture)
+  - [4. 隐私安全立场 (Security & Privacy Posture)](#4-隐私安全立场-security--privacy-posture)
   - [5. 技术参考架构 (Technical Reference Architecture)](#5-技术参考架构-technical-reference-architecture)
 - [Deep Dives / 深度文档](#-deep-dives--深度文档)
 
@@ -64,8 +64,8 @@ EchoSim.AI transitions dating from active, high-friction searching to passive, h
 4. **Review & Meet:** Humans read the simulation transcripts and analysis, skip the small talk, and arrange an authentic offline meeting.
 
 ### 4. Security & Privacy Posture
-- **Local-First & Data Minimization:** Sensitive psychological datasets are kept in secure local runtimes.
-- **Zero-Trust Infrastructure:** No personal chat histories or raw psychological vectors are shared with advertising networks or third-party trackers.
+- **Data Minimization:** We collect and retain only what a simulation needs in order to run.
+- **No Third-Party Tracking:** No personal chat histories or raw psychological vectors are sold or shared with advertising networks or third-party trackers.
 - **Data Sovereignty:** Users maintain complete ownership and deletion rights over their profile data and AI Echo parameters.
 
 ### 5. Technical Reference Architecture
@@ -100,10 +100,10 @@ EchoSim.AI 将社交过程简化为极低门槛的 **4 个步骤**：
 3. **后台自动模拟：** 两个 AI 替身在后台的私密沙箱中开始前置模拟约会，历经各种沟通场景与碰撞。
 4. **真人直接见面：** 阅读约会仿真记录和深度兼容性报告，跳过繁琐寒暄，直接走向有意义的线下初见。
 
-### 4. 隐私安全与零信任立场 (Security & Privacy Posture)
-- **本地优先与数据最小化：** 用户的敏感心理学和人格向量存放在本地运行环境中，杜绝集中泄露风险。
-- **零信任架构：** 不将任何聊天习惯、位置轨迹或私密倾向数据兜售或共享给第三方广告追踪引擎。
-- **数据主权：** 用户对其心理画像及 AI 替身资产拥有绝对掌控权、导出权与即时销毁权。
+### 4. 隐私安全立场 (Security & Privacy Posture)
+- **数据最小化：** 我们只收集与保留模拟运行所必需的数据。
+- **不做第三方追踪：** 不将任何聊天记录、位置轨迹或私密倾向数据兜售或共享给广告网络与第三方追踪器。
+- **数据主权：** 用户对其心理画像与 AI 替身拥有所有权与删除权。
 
 ### 5. 技术参考架构 (Technical Reference Architecture)
 EchoSim.AI 将面向智能体的外部接口标准化为 **Model Context Protocol (MCP)** 服务，在确保核心引擎黑盒闭源的前提下，提供了极强的系统级互操作性：

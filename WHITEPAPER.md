@@ -54,13 +54,13 @@ Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism govern
 
 These frameworks are combined into an overall compatibility signal and a separate chat-fatigue risk signal. **How** they are combined is part of EchoSim.AI's proprietary engine and is intentionally outside the scope of this document.
 
-### 4. Privacy: Local-First, Zero-Trust
+### 4. Privacy: Data Minimization and No Third-Party Tracking
 
 Conventional apps centralize highly sensitive data — chat logs, location traces, intimate preferences — in cloud databases that are attractive targets and easy to monetize. EchoSim.AI is built on the opposite principle:
 
-- **Data minimization.** Simulation and analysis are designed to run without persisting or exporting sensitive relational data.
-- **Zero-trust posture.** Nothing about a user's psychology is shared with third-party tracking networks.
-- **Sovereignty.** Users remain the owners of their own profiles and Echoes.
+- **Data minimization.** We collect and retain only what a simulation needs in order to run, and we do not export sensitive relational data to third parties.
+- **No third-party tracking.** Nothing about a user's psychology is sold or shared with advertising networks or third-party trackers.
+- **Sovereignty.** Users remain the owners of their own profiles and Echoes, with the right to delete them.
 
 ### 5. Paradigm Comparison
 
@@ -70,7 +70,7 @@ Conventional apps centralize highly sensitive data — chat logs, location trace
 | **Latency** | High — hours to days of waiting | Effectively instant in simulation |
 | **Emotional burnout** | Severe — ghosting, catfishing, dry-chat loops | Minimal — incompatible matches filtered early |
 | **Incentive structure** | Attention monetization (keeps you single) | Outcome optimization (toward real meetings) |
-| **Data model** | Centralized, commercialized | Local-first, zero-trust |
+| **Data model** | Centralized, commercialized | Data-minimizing; no third-party tracking |
 
 ### 6. Vision
 
@@ -126,13 +126,13 @@ EchoSim.AI 的建模借鉴了三套被广泛使用的人格与关系描述框架
 
 这些框架被综合为一个整体兼容性信号，以及一个独立的聊天内耗风险信号。**如何**综合，属于 EchoSim.AI 的专有引擎，刻意不在本文档讨论范围之内。
 
-### 4. 隐私：本地优先，零信任
+### 4. 隐私：数据最小化与不做第三方追踪
 
 传统软件把高度敏感的数据——聊天记录、位置轨迹、私密偏好——集中存储在云端数据库中，这既是诱人的攻击目标，也极易被商业变现。EchoSim.AI 建立在相反的原则上：
 
-- **数据最小化。** 模拟与分析的设计目标是无需持久化或导出敏感关系数据即可运行。
-- **零信任立场。** 用户的任何心理信息都不会与第三方追踪网络共享。
-- **数据主权。** 用户始终是自己画像与替身的所有者。
+- **数据最小化。** 我们只收集与保留模拟运行所必需的数据，不向第三方导出敏感关系数据。
+- **不做第三方追踪。** 用户的任何心理信息都不会被出售或共享给广告网络与第三方追踪器。
+- **数据主权。** 用户始终是自己画像与替身的所有者，并有权删除。
 
 ### 5. 范式对比
 
@@ -142,7 +142,7 @@ EchoSim.AI 的建模借鉴了三套被广泛使用的人格与关系描述框架
 | **沟通延迟** | 极高——等待回复需数小时至数天 | 模拟中近乎即时 |
 | **情感内耗** | 严重——已读不回、照骗、干聊循环 | 极低——不合适的匹配被提前滤除 |
 | **激励结构** | 注意力变现（让你保持单身） | 结果导向（推动真实见面） |
-| **数据模型** | 中心化、商业化 | 本地优先、零信任 |
+| **数据模型** | 中心化、商业化 | 数据最小化、不做第三方追踪 |
 
 ### 6. 愿景
 
